@@ -1,0 +1,14 @@
+git status 
+#checks current status of repository
+
+git add -A 
+#puts altered & untracked files into staging area (stage uncommited files)
+
+git commit -am 'message goes here'
+#the a says take all the files and commit them, the m says put a message in
+
+git push
+#pushes commits to repo
+
+git pull
+#pull any changes from Github down to local repo
